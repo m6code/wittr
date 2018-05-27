@@ -1,4 +1,4 @@
-var staticCacheName = 'wittr-static-v1'; // name of current cache
+var staticCacheName = 'wittr-static-v3'; // name of current cache
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
@@ -15,6 +15,7 @@ self.addEventListener('install', function(event) {
     })
   );
 });
+ 
 // Removes old caches
 self.addEventListener('activate', function(event) {
   event.waitUntil(
@@ -41,4 +42,8 @@ self.addEventListener('fetch', function(event) {
 
 // TODO: listen for the "message" event, and call
 // skipWaiting if you get the appropriate message 
-  
+self.addEventListener('message', function(event){
+  if(event.data.action == 'skipWaiting'){
+    self.skipWaiting();
+  }
+});
