@@ -1,5 +1,8 @@
 self.addEventListener('install', function(event) {
   event.waitUntil(
+    // TODO: change the site's theme, eg swap the vars in public/scss/_theme.scss
+    // Ensure at least $primary-color changes
+    // TODO: change cache name to 'wittr-static-v2'
     caches.open('wittr-static-v1').then(function(cache) {
       return cache.addAll([
         '/',
@@ -13,13 +16,16 @@ self.addEventListener('install', function(event) {
   );
 });
 
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    // TODO: remove the old cache
+  );
+});
+
 self.addEventListener('fetch', function(event) {
-  // TODO: respond with an entry from the cache if there is one.
-  // If there isn't, fetch from the network.
   event.respondWith(
-    caches.match(event.request).then(function(response){
-      if(response) return response;
-      return fetch(event.request);
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
     })
   );
 });
