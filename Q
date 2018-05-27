@@ -1,0 +1,89 @@
+[33mcommit 2d4091e2482ac136d3f1ea5faec48506819b69b2[m[33m ([m[1;36mHEAD -> [m[1;32mtask-handling-updates[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 10:55:22 2018 +0100
+
+    Change styling adn replaced old cache
+
+[33mcommit 32f118af155a48640b3c5660c55a0cee817d4112[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 10:47:01 2018 +0100
+
+    Stubbe out activate
+
+[33mcommit 37052df2fe8faab9c1a28c74a011d420f1594071[m[33m ([m[1;32mtask-cache-response[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 10:44:55 2018 +0100
+
+    completed task cache-served
+
+[33mcommit 91fa416e26a630a60c009831fa3349bd34f0fa75[m[33m ([m[1;32mtask-install[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 10:13:08 2018 +0100
+
+    complete task install-catched
+
+[33mcommit 3a84e1e16571516448699cd897cbc44386716413[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 09:43:48 2018 +0100
+
+    Boilerplate for installing
+
+[33mcommit 101f7ff7cef297cb983dd70911ef9173d2c333b6[m[33m ([m[1;32merror-handling[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 09:35:57 2018 +0100
+
+    completed task gif-404
+
+[33mcommit 8c0b222e4618cffd3ec46283d74352072649b6ee[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 09:25:28 2018 +0100
+
+    Handling 404 and failure
+
+[33mcommit bddf3bf78032fd65dcacf9e75db76a918f846a74[m[33m ([m[1;32mgif-response[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 09:22:39 2018 +0100
+
+    completed task to serve gif to all jpg file request
+
+[33mcommit a9e009676b96d279709220c0de01e76692fe7db0[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 09:04:20 2018 +0100
+
+    Responding with gif
+
+[33mcommit f9f998d7d4f50bca28720201a76ade73e5a9cfc6[m[33m ([m[1;32mtask-custom-request[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 08:45:20 2018 +0100
+
+    completed task html-response
+
+[33mcommit 6a152f99b90bbcc97fece235122d72a5032ef999[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 08:32:50 2018 +0100
+
+    TODOs for custom response
+
+[33mcommit 37efb11e93c96db5fdf296aca29fbea769fddda4[m[33m ([m[1;32mlog-requests[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 08:15:15 2018 +0100
+
+    Completed the sw-waiting task
+
+[33mcommit 3e2c41ecc9fd91fb8fbc6d185e874f7f9b62ec87[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sun May 27 08:12:10 2018 +0100
+
+    Register SW and log requests
+
+[33mcommit 3e75066998407e01c1f019bb5d8cf414d722d9d7[m[33m ([m[1;32mtask-register-sw[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Sat May 26 09:05:25 2018 +0100
+
+    Registered Service Worker
+
+[33mcommit f1108d806637d182858e128530bfe40f2ec8382e[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Benjamin M6 <benjamynfrank101@gmail.com>
+Date:   Fri May 25 13:06:13 2018 +0100
+
+    Initial commit
