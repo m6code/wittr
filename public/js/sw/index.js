@@ -4,6 +4,8 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     // Fetch current cache
     caches.open(staticCacheName).then(function(cache) {
+    // TODO: cache /skeleton rather than the root page
+
       return cache.addAll([
         '/',
         'js/main.js',
@@ -33,6 +35,8 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
+  // TODO: respond to requests for the root page with
+  // the page skeleton from the cache
   event.respondWith(
     caches.match(event.request).then(function(response) {
       return response || fetch(event.request);
