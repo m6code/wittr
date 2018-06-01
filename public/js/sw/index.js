@@ -1,4 +1,4 @@
-var staticCacheName = 'wittr-static-v4'; // name of current cache
+var staticCacheName = 'wittr-static-v5'; // name of current cache
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
